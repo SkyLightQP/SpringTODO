@@ -6,10 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HealthCheckController {
     @GetMapping("/health")
-    public HealthCheckResponse healthCheck() {
-        return new HealthCheckResponse(true);
+    public boolean healthCheck() {
+        return true;
     }
-}
-
-record HealthCheckResponse(boolean result) {
 }
