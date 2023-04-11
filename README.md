@@ -7,6 +7,7 @@
 - [ ] JPA로 TODO 데이터를 데이터베이스에 저장하기
 - [ ] 계정 API를 만들어서 계정별로 TODO 관리하기
 - [ ] Unit Test 작성하기
+- [ ] Swagger로 HTTP API 문서 만들기
 
 ## 컨벤션
 
