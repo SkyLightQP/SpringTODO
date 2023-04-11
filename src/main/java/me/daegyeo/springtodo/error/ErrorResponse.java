@@ -1,9 +1,12 @@
 package me.daegyeo.springtodo.error;
 
+import lombok.Getter;
+
+@Getter
 public class ErrorResponse {
-    private int httpStatus;
-    private String message;
-    private String code;
+    private final int httpStatus;
+    private final String message;
+    private final String code;
 
     public ErrorResponse(ErrorCode errorCode) {
         this.httpStatus = errorCode.getHttpStatus();
